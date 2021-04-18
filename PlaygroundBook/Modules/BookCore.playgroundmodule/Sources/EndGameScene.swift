@@ -56,11 +56,7 @@ public class EndGameScene: SKScene {
         addChild(emitterNode)
     }
 
-    func touchDown(atPoint pos : CGPoint) {
-        labelThanks.run(SKAction.run {
-            self.labelThanks.text = "Teste"
-        })
-    }
+    func touchDown(atPoint pos : CGPoint) {}
 
     func touchMoved(toPoint pos : CGPoint) {}
 
