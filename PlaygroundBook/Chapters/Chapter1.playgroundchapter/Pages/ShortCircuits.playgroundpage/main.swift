@@ -22,6 +22,7 @@ if let scene = GameScene(fileNamed: "GameScene") {
 
 PlaygroundPage.current.liveView = sceneView
 PlaygroundPage.current.needsIndefiniteExecution = true
+PlaygroundPage.current.wantsFullScreenLiveView = true
 //#-end-hidden-code
 /*:
  # Please hide the editor and enable full screen mode for a better experience
